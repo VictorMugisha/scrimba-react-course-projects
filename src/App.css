@@ -1,4 +1,44 @@
-
 * {
   font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 500px;
+  height: fit-content;
+  background: rgb(39, 46, 52);
+  color: white;
+}
+
+.navigation {
+  padding: 7px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+}
+
+.navigation .logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.navigation .logo h3 {
+  color: rgb(97, 217, 252);
+}
+
+.navigation ul {
+  list-style: none;
+}
+
+.navigation ul li {
+  font-size: 13px;
 }
