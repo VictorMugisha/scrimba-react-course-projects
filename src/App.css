@@ -62,3 +62,8 @@ main {
   line-height: 19px;
   padding-block: 10px;
 }
+
+.main-facts > li::marker {
+  font-size: 1.3rem;
+  color: rgb(97, 217, 252);
+}
